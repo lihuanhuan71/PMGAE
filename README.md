@@ -22,20 +22,26 @@ To run the codes in the terminal, use the following commands:
 Cora
 python train.py --dataname cora --epochs 100  --lr2 1e-2 --wd2 1e-4 --scale 100  --multiple 1
 
+
 Citeseer
 python train.py --dataname citeseer --epochs 25 --n_layers 1 --lr2  1e-2  --wd2 1e-1 --scale 100 --multiple 2
+
 
 Pubmed  
 python train.py --dataname pubmed --epochs 50 --lr2 1e-2 --wd2 1e-4  --scale 1000 --multiple 0
 
+
 Amazon-Photo
 python train.py --dataname photo --epochs 50  --lr2 1e-3 --wd2  1e-5  --scale  100 --multiple 1
+
 
 Amazon-Computer
 python train.py --dataname comp --epochs 50 --lr2 1e-2 --wd2 1e-4  --scale  100 --multiple 1
 
+
 Coauthor-CS
 python train.py --dataname cs --epochs 50 --lr2 1e-2 --wd2 0 --scale  100 --multiple 2 --dfr 0.2 --der 0.2
+
 
 Coauthor- physics
 python train.py --dataname physics --epochs 50 --gpu -1 --lr2 5e-2 --wd2 0 --scale  100 --multiple 1 --ratio 0.1
